@@ -13,7 +13,7 @@ private typealias Passport = Map<String, String>
 
 private typealias Validator = (String) -> Boolean
 
-private object Day4 {
+object Day4 {
 
     fun countValidPassports(input: String): Int {
         return readPassports(input)
